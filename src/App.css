@@ -1,3 +1,30 @@
 .App {
   text-align: center;
 }
+
+.cat-box {
+  display: flex;
+  /* width: 100%; */
+  max-width: 250px;
+  height: 250px;
+  display: flex;
+  overflow: hidden;
+  background-color: transparent;
+  margin: auto;
+}
+
+.active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  object-fit: cover;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
